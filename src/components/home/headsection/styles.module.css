@@ -1,0 +1,52 @@
+
+.profile_image {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #08B2F7, #083BF7, #08F7C4);
+    padding: 2px;
+}
+
+.icons {
+    background-color: var(--secondary-app-color);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 5px;
+    border: 1px solid var(--secondary-app-color);
+}
+
+.redirection_button {
+    position: relative;
+    background-color: rgba(13, 19, 69, 0.7);
+    padding: 10px 30px;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-app-color);
+    height: 100%;
+    width: 0;
+    transition: 0.5s ease;
+}
+
+.text {
+    width: 100%;
+    visibility: hidden;
+}
+
+.redirection_button:hover .overlay {
+    width: 100%;
+}
+.redirection_button:hover .text {
+    visibility: visible;
+    display: flex;
+    color: var(--primary-app-color);
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}

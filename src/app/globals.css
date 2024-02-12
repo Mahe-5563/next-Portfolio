@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --primary-app-color: #05071A;
+  --secondary-app-color: #D2C228;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +20,55 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background-color: var(--primary-app-color);
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
+
+
+/* 
+
+Tailwind Padding and Margin:
+
+numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52... by adding 4.
+
+m/p-<number> => Padding
+m/px-<number> => Padding x-axis
+m/py-<number> => Padding y-axis
+m/ps-<number> => Padding inline start
+m/pe-<number> => Padding inline end
+m/pt-<number> => Padding Top
+m/pb-<number> => Padding Bottom
+m/pl-<number> => Padding Left
+m/pr-<number> => Padding Right
+
+replace <number> with px to get 1px padding along any direction.
+
+Space between:
+
+space-x/y-0: margin left or top.
+
+*/
+
+/* 
+
+Tailwind classes:
+
+Height: h-1, h-2, h-2.5
+Backgroud: bg-<color>-800
+Grids: grid grid-cols-2
+Cell spacing: gap-2
+Borders: border-2
+Border Color: border-blue-900
+
+*/
+
+/** 
+  Justify Content = positioning flex and grid items in the container
+  Align Content = positioning rows in multi-row flex and grid container
+  Place Content = controlling justification and alignment of content at the same time.
+*/
