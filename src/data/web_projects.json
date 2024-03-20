@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2",
+    "title": "Vakilsearch Website",
+    "description": "Vakilsearch website included various service pages that the customers can work with to create leads. Customers can interact with the website to proceed with payment, view offers for the related services, chat bot, search pages, etc.",
+    "projectClass": "project_website",
+    "additionalClassNames": "",
+    "viewTitle": true,
+    "additionalTitleClassNames": "",
+    "url": "/vakilsearch-website"
+  },
+  {
+    "id": "1",
+    "title": "Vakilsearch CRM",
+    "description": "Vakilsearch CRM was the first project I had worked on when I started my career as a frontend developer. The CRM focused on handling tickets, managing messages and mails, assigning tasks and events and contacting the customers through SIP and whatsapp calls.",
+    "projectClass": "project_crm",
+    "additionalClassNames": "",
+    "viewTitle": true,
+    "additionalTitleClassNames": "",
+    "url": "/vakilsearch-crm"
+  }
+]

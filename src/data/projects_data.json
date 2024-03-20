@@ -1,0 +1,516 @@
+[
+  {
+    "id": "1",
+    "url": "/collabb",
+    "title": "Collabb",
+    "description": "Collabb is a freelancing application that connects Clients who wishes to get a job/task done and Candidates who are suitable to work for the job/task. Essentially the Candidate can apply for all possible jobs and tasks that are suitable to their profile while the Client can assess the Candidate's profile and decide which Candidate is suitable to work on the respective task.",
+    "banner": "",
+    "projectType": "ux",
+    "applicationType": "mobile",
+    "steps": [
+      {
+        "title": "User Types",
+        "type": "card",
+        "items": [
+          {
+            "id": "usertype_1",
+            "header": "The Client",
+            "content": "The Client is responsible for creating the job posts or tasks and recruiting relevant candidates to work on the respective task created by them. The Client also manages the status of the job posts."
+          },
+          {
+            "id": "usertype_2",
+            "header": "The Candidate",
+            "content": "The Candidate is responsible for applying to the job posts. The Candidate is responsible for building an impressive profile and portfolio for the Client to view and decide. The Candidates can apply for jobs based on the category they chose to work under."
+          }
+        ]
+      },
+      {
+        "title": "Why does the user(s) need it?",
+        "type": "card",
+        "items": [
+          {
+            "id": "userneed_1",
+            "header": "Choice",
+            "content": "Multiple options for Clients to choose and hire from.\nCandidates have various jobs to apply for and work on."
+          },
+          {
+            "id": "userneed_2",
+            "header": "Investment",
+            "content": "Not too much of an investment  for the Clients who wishes to get their work done at low cost compared to a full time hire."
+          },
+          {
+            "id": "userneed_3",
+            "header": "Tracking",
+            "content": "Tracking the status of the job posts and applications for both the Clients and the Candidates respectively is simpler."
+          },
+          {
+            "id": "userneed_4",
+            "header": "Connectivity",
+            "content": "Easy connectivity for the Clients and the Candidates. Helps both the users to keep themselves updated of the tasks."
+          }
+        ]
+      },
+      {
+        "title": "What does the user(s) get out of it?",
+        "type": "card",
+        "items": [
+          {
+            "id": "uservalues_1",
+            "header": "Long-term Prospects",
+            "content": "Clients find good prospects amongst the pile of the Candidates on whom they can rely on to work on their future projects."
+          },
+          {
+            "id": "uservalues_2",
+            "header": "Personalized Preferences",
+            "content": "The Candidates get to spend all their time on the task according to the requirements providing high quality work and faster deliverables."
+          },
+          {
+            "id": "uservalues_3",
+            "header": "Accessibility",
+            "content": "The Clients have access to large pool of Candidates from which they can choose and The Candidates have multiple job options to which they can apply"
+          }
+        ]
+      },
+      {
+        "title": "Research",
+        "type": "text",
+        "items": [
+          {
+            "id": "research_1",
+            "header": "Inspiration",
+            "content": "Job hunting is always a tough task for anyone especially if one does not have any experience with working on a field. Freelancing is a path to help one grow professionally in a field of their expertise. Gaining experience opens up multiple paths and options for one's career and freelancing is one way that helps that person. The intention of the Logo is to keep it simple, although the amalgamation between 'O' and the first 'L' is intended to bring out a concept of Collaboration between a consonant and a vowel to get the meaning out. Hence the inspiration for 'Collabb'."
+          },
+          {
+            "id": "research_2",
+            "header": "Non Domain Influence",
+            "content": "The background color of the application (beige and black) is influenced by the structures around the city that displays the simplicity and comfort of the interface to the users. The card grouping for displaying details of a set of data is influenced by the similar card grouping in Revolut application. The ticket-based system for the Talent's home page is based on Customer Relationship Model system that works on tickets and leads."
+          },
+          {
+            "id": "research_3",
+            "header": "Competitor Analysis",
+            "content": "The primary competitors of Collabb would be Upwork, Fiverr and Working Not Working. Fiverr and Upwork are some of the leaders in providing freelancing to the internet community. They have multiple services and various categories of freelancing, whereas Collabb focuses on services and freelancing over online-medium. "
+          },
+          {
+            "id": "research_1",
+            "header": "Technologies used",
+            "listContent": [
+              {
+                "id": "tech_used_1",
+                "title": "Design -",
+                "content": "Figma, Adobe Illustrator, Adobe Photoshop"
+              },
+              {
+                "id": "tech_used_2",
+                "title": "Development -",
+                "content": "React Native, Redux, Node JS, Mongo DB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Color Palette",
+        "type": "color_palette",
+        "items": [
+          {
+            "id": "color_palette_1",
+            "header": "Primary Colors",
+            "listContent": [
+              {
+                "id": 1,
+                "title": "#F5F5DC",
+                "content": "#F5F5DC"
+              },
+              {
+                "id": 2,
+                "title": "#DEDEB5",
+                "content": "#DEDEB5"
+              },
+              {
+                "id": 3,
+                "title": "#C5C580",
+                "content": "#C5C580"
+              }
+            ]
+          },
+          {
+            "id": "color_palette_2",
+            "header": "Secondary Colors",
+            "listContent": [
+              {
+                "id": 1,
+                "title": "#242021",
+                "content": "#242021"
+              },
+              {
+                "id": 2,
+                "title": "#3F383A",
+                "content": "#3F383A"
+              }
+            ]
+          },
+          {
+            "id": "color_palette_3",
+            "header": "Complimentary Colors",
+            "listContent": [
+              {
+                "id": 1,
+                "title": "#DCDCF5",
+                "content": "#DCDCF5"
+              },
+              {
+                "id": 2,
+                "title": "#B5B5DE",
+                "content": "#B5B5DE"
+              },
+              {
+                "id": 3,
+                "title": "#8F8FCD",
+                "content": "#8F8FCD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Logo",
+        "type": "image",
+        "items": [
+          {
+            "id": "logo_1",
+            "header": "Collabb",
+            "image": ""
+          },
+          {
+            "id": "logo_2",
+            "header": "Collabb",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "title": "Fontface",
+        "type": "fontface",
+        "items": [
+          {
+            "id": "fontface_1",
+            "header": "Bold - Lato",
+            "content": "lato url goes here..."
+          },
+          {
+            "id": "fontface_2",
+            "header": "Regular - Lato",
+            "content": "lato url goes here..."
+          },
+          {
+            "id": "fontface_3",
+            "header": "Lite - Lato",
+            "content": "lato url goes here..."
+          }
+        ]
+      },
+      {
+        "title": "Initial Prototype",
+        "type": "prototype_design",
+        "items": [
+          {
+            "id": "initial_prototype_1",
+            "header": "Initial User Flow",
+            "image": "",
+            "content": "The application was begun with an intention to provide service of various categories (and not just freelancing services) to users and customers. Although the idea of the application did develop as days progressed, and the motivation was focused primarily towards online freelancing services, the structure of the application remained constant right from the initial user flow. "
+          },
+          {
+            "id": "initial_prototype_2",
+            "header": "Client Flow - Job Post (primary flow)",
+            "image": "",
+            "content": "Of the two user types, the Client user creates the tasks and jobs for the Candidate to apply, get in touch and work on. As the primary feature of the Client flow, the Job Post creation process is elicited here. \n\n\n\nThe primary flow begins by selecting the category and the sub-category under which the Client wishes to create the job post. Upon the selection, the Client provides the necessary details for that task/job and everything that the Candidate has to know about such as the requirements, skills, budget, timeframe, etc. Once the Client submits the job post, he/she can view the job post they created in the dashboard."
+          },
+          {
+            "id": "initial_prototype_3",
+            "header": "Client Flow (Contd.)",
+            "image": "",
+            "content": "The Client can track the applications of the Candidates in the dashboard. The Client can view the Candidate's profile, portfolio, etc. and make a decision on with whom they want to proceed.\n\n\n\nThe chat feature is also elicited that works common to both the user types. The inbox holds the message thread of each conversation. The user can view and send messages with attachments (optional) to the other user. The chat feature works only user type to user type, i.e. the Client can chat only with the Candidate and vice-versa."
+          },
+          {
+            "id": "initial_prototype_1",
+            "header": "Candidate Flow - Apply for Job (primary flow)",
+            "image": "",
+            "content": "The primary flow of the Candidate user focuses on applying for a job that they find suits their requirements. Initially the Candidate creates their account selecting the category and sub-category of their expertise. Once the account is created, the Candidate can view the list of all the jobs that they can possibly apply for and select one among them and apply for it. Once the application is sent, the Candidate has to wait for the response from the Client. The Candidate can view the status of their application in their dashboard."
+          }
+        ]
+      },
+      {
+        "title": "Client Flow Prototype",
+        "type": "prototype_mobile",
+        "items": [
+          {
+            "id": "client_flow_prototype_1",
+            "header": "Home Page",
+            "image": "",
+            "content": "The Client user can create job posts or search for Candidates through the home page. 'Similar to your searches' section provides the Client with Candidates that match or are close to what the Client has been looking for."
+          },
+          {
+            "id": "client_flow_prototype_2",
+            "header": "Post Job - Select Category and Sub category",
+            "image": "",
+            "content": "Creating a job post is the primary flow of the application for the Client user type. The Client is prompted to select the appropriate category and sub-category of the job post that they wish to create."
+          },
+          {
+            "id": "client_flow_prototype_3",
+            "header": "Post Job - Job Description",
+            "image": "",
+            "content": "Once the category and sub-category are selected, the Client is required to provide the necessary job description and budget range for the project/task."
+          },
+          {
+            "id": "client_flow_prototype_4",
+            "header": "Client - Dashboard",
+            "image": "",
+            "content": "The dashboard of the Client user provides the user with three different states of their job status. The Active Jobs determine the jobs that has been created but the work hasn't been started on it yet. Ongoing Jobs determine that the Client has decided with the candidate and they are working on it. Completed jobs holds all the old jobs that the Client has completed."
+          },
+          {
+            "id": "client_flow_prototype_5",
+            "header": "Dashboard",
+            "image": "",
+            "content": "Every job status has the list of all the jobs that the Client has created and if there are any applications, the status of it is visible as well."
+          },
+          {
+            "id": "client_flow_prototype_6",
+            "header": "Applicants",
+            "image": "",
+            "content": "The list of all the applicants who have applied for this particular job post."
+          },
+          {
+            "id": "client_flow_prototype_7",
+            "header": "Candidate Profile",
+            "image": "",
+            "content": "The Client can visit the Candidate's profile, go through it and decide which candidate they find suitable to work on the particular task. The Client gets in touch with the candidate and proceed with the work."
+          }
+        ]
+      },
+      {
+        "title": "Candidate Flow Prototype",
+        "type": "prototype_mobile",
+        "items": [
+          {
+            "id": "candidate_flow_prototype_1",
+            "header": "Candidate Home Page",
+            "image": "",
+            "content": "The Home page of the candidate displays the list of all the possible job posts that are available to the respective candidate based on the category that they work on."
+          },
+          {
+            "id": "candidate_flow_prototype_2",
+            "header": "Home page filter",
+            "image": "",
+            "content": "The Candidate can filter their feed as they wish and search for the suitable job posts."
+          },
+          {
+            "id": "candidate_flow_prototype_3",
+            "header": "Apply for Job",
+            "image": "",
+            "content": "On selecting a job post from the home page feed, the Candidate can view the job description and the budget range of the selected job before applying for it."
+          },
+          {
+            "id": "candidate_flow_prototype_4",
+            "header": "Profile page",
+            "image": "",
+            "content": "The Candidate can keep themselves up to date on the status of their job, edit their details, profile picture and portfolio images."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "url": "/maguire-whiskey",
+    "title": "Maguire Whiskey",
+    "description": "Maguire Whiskey is a superficial brand recently opened in Dublin, Ireland. Known for its modern distill and the symbol of freshness, Maguire Whiskey requires a website to promote its brand and offers. The app is designed for mobile and desktop web.",
+    "banner": "",
+    "projectType": "ux",
+    "applicationType": "web",
+    "steps": [
+      {
+        "title": "Logo",
+        "type": "image",
+        "items": [
+          {
+            "id": "logo_1",
+            "header": "Maguire Whiskey",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "title": "Fontface",
+        "type": "fontface",
+        "items": [
+          {
+            "id": "fontface_1",
+            "header": "Bernard MT Condensed",
+            "content": "fontface goes here..."
+          }
+        ]
+      },
+      {
+        "title": "Color Palette",
+        "type": "color_palette",
+        "items": [
+          {
+            "id": "color_palette_1",
+            "header": "Primary Color",
+            "listContent": [
+              {
+                "id": 1,
+                "title": "#F5DA1C",
+                "content": "#F5DA1C"
+              }
+            ]
+          },
+          {
+            "id": "color_palette_2",
+            "header": "Secondary Colors",
+            "listContent": [
+              {
+                "id": 1,
+                "title": "#302F2F",
+                "content": "#302F2F"
+              },
+              {
+                "id": 2,
+                "title": "#606060",
+                "content": "#606060"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Initial Prototype",
+        "type": "prototype_design",
+        "items": [
+          {
+            "id": "initial_prototype_1",
+            "header": "Mobile Screen - Home and Products page",
+            "image": "",
+            "content": ""
+          },
+          {
+            "id": "initial_prototype_2",
+            "header": "Desktop Screen - Products page",
+            "image": "",
+            "content": ""
+          },
+          {
+            "id": "initial_prototype_3",
+            "header": "Desktop Screen - Home page",
+            "image": "",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "title": "Final Prototype",
+        "type": "prototype_web_mobile",
+        "items": [
+          {
+            "id": "final_prototype_1",
+            "header": "Products",
+            "image": "",
+            "image2": "",
+            "content": "In the products page, the list of all the drinks distilled and available at Maguire Whiskey are displayed. Each of the products has the description, the ingredients used in it and where it is available. The user can add the item to the cart and proceed to payment."
+          },
+          {
+            "id": "final_prototype_2",
+            "header": "Home Screen",
+            "image": "",
+            "image2": "",
+            "content": "The Home screen holds the top selling whiskeys and cocktails, promotions and customer reviews."
+          },
+          {
+            "id": "final_prototype_3",
+            "header": "Checkout page",
+            "image": "",
+            "image2": "",
+            "content": "The checkout page of the web app displays all the items that had been dropped in the cart (barrel), the total of all the items and the quantity of purchase."
+          },
+          {
+            "id": "final_prototype_4",
+            "header": "About",
+            "image": "",
+            "image2": "",
+            "content": "The About page displays the story of Maguire Whiskey."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "url": "/vakilsearch-website",
+    "title": "Vakilsearch Website",
+    "description": "The CRM (Customer Relationship Model) portal was the first project I had worked on as a web dev professional, included into the project as an intern and completed the internship with wide knowledge and experience building multiple components and elements. The CRM was developed as a single-page application.\n\n\n\n<b>Disclaimer:</b> For safety and privacy purposes, the images provided in the portfolio are taken from the testing server rather than the production and is limited to few features.",
+    "banner": "",
+    "projectType": "web",
+    "applicationType": "web",
+    "steps": [
+      {
+        "title": "Components and elements developed",
+        "type": "prototype_web",
+        "items": [
+          {
+            "id": "prototype_web_1",
+            "header": "Primary Page",
+            "content": "Once the Business team executive or the Operations team executive logs into the application, the user lands on the CRM portal with the list of tickets on the left side and the details related to the ticket on the center and right side of the portal. The CRM project was a revamp from the previous model that had direct interaction with every requirement the teams needed. Combining all the features into a single page helped the executives to traverse through the respective sections of the page. The single page CRM proved to be helpful for the executives such as clearing the customer's problems, queries, handling leads and even contacting the customer for follow-ups. Over the 3 years of my time at Vakilsearch, multiple experiments and components were developed of which some proved to be of use to the executives while some of them didn't.",
+            "image": ""
+          },
+          {
+            "id": "prototype_web_2",
+            "header": "Customer Details card",
+            "content": "The Customer Details section holds all the necessary elements related to the customer and the agent/executive related to that customer. The executives also had the feature to perform regular call, SIP call and contact the customer through WhatsApp. Providing the executives with multiple options helped them keep tabs on the status of the ticket and the customer.",
+            "image": ""
+          },
+          {
+            "id": "prototype_web_3",
+            "header": "Email and Inbox",
+            "content": "The e-mail feature of the application is the primary one as all the official communication the executives have with the customers goes through e-mails. The e-mail feature has options that makes a part of the executive's life easier such as templates or canned responses, the type of e-mail, formatting and even the signature for the sender is figured out. ",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "url": "/vakilsearch-crm",
+    "title": "Vakilsearch CRM",
+    "description": "The transition from being an intern to a full-time employee came with its benefits. One of them was developing and managing various components, pages and the SEOs of the website. Multiple experiments and offer pages were developed and run by the clients and customers to collect their impressions on the feature. The impressions were passed through APIs with various factors and tracked through Power BI.\n\n\n\n<b>Disclaimer:</b> For safety and privacy purposes, the images provided in the portfolio are taken from the testing server rather than the production and is restricted to few features.",
+    "banner": "",
+    "projectType": "web",
+    "applicationType": "web",
+    "steps": [
+      {
+        "title": "Pages and components developed",
+        "type": "prototype_web",
+        "items": [
+          {
+            "id": "prototype_web_1",
+            "header": "Service Pages (landing page)",
+            "content": "Service pages were the important landing pages for the company. It's through the service pages over which the customers create leads that the Business and Operations executives receive and get in touch with. A/B Experiments are performed on some of the high priority service pages to understand the lead conversions and the payment conversions. The A/B Experiments revolved around the landing page banners and with the features provided with that particular service. These A/B experiments determined how many users actually interacted with the features and the landing page banner. The above image is related to Private Limited Company Registration service. High priority service pages had chat bots as well that the customer can interact to create leads. Although for the payment, the agent contacts the customer to get the payment by providing a payment link.",
+            "image": ""
+          },
+          {
+            "id": "prototype_web_2",
+            "header": "Trademark Search Page",
+            "content": "Trademark search was an individual revamp project that I worked on a Full-Stack level. The frontend for TM search page was built roughly around in 2 weeks time and the backend APIs were completed and deployed in approximately 20 days. The integration and testing for the revamp webpage was done in less than a week's time. The purpose of the TM search page is to display the list of all available companies that have a trademark applied to their names and products such that a new proprietor doesn't attempt to trademark an existing name.",
+            "image": ""
+          },
+          {
+            "id": "prototype_web_3",
+            "header": "Seamless Payment Page",
+            "content": "The in-house payment page was the first major project on the website that I worked on. We were 2 developers, one frontend and one backend developer, with me working on the frontend. The in-house payment page was developed and tested over a period of 5 months before it was finally released to the production site. A/B testing was performed on the payment page as well. Two different payment pages were designed and developed to perform the experiment to determine which interface and experience had the highest payment conversions.",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  }
+]

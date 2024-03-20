@@ -5,4 +5,5 @@
   width: 100%;
   background-color: var(--primary-app-color);
   height: 75px;
+  z-index: 999;
 }

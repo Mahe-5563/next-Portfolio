@@ -1,0 +1,22 @@
+[
+  {
+    "id": "2",
+    "title": "Collabb",
+    "description": "Collabb is a freelancing application that connects Clients who wishes to get a job/task done and Candidates who are suitable to work for the job/task. Essentially the Candidate can apply for all possible jobs and tasks that are suitable to their profile while the Client can assess the Candidate's profile and decide which Candidate is suitable to work on the respective task",
+    "projectClass": "project_collabb",
+    "additionalClassNames": "",
+    "viewTitle": false,
+    "additionalTitleClassNames": "",
+    "url": "/collabb"
+  },
+  {
+    "id": "1",
+    "title": "Maguire Whiskey",
+    "description": "Maguire Whiskey was the first project I had worked on as a UI/UX Designer. The intention of the application is to be a web app and is designed accordingly.",
+    "projectClass": "project_maguire_whiskey",
+    "additionalClassNames": "",
+    "viewTitle": true,
+    "additionalTitleClassNames": "hidden | md:block",
+    "url": "/maguire-whiskey"
+  }
+]

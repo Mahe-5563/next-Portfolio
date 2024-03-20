@@ -3,22 +3,23 @@ import { Amaranth } from "next/font/google";
 import "../globals.css";
 import Footer from "@/components/header-footer/footer";
 import Header from "@/components/header-footer/header";
-import ResumeComponent from "@/components/resume";
+import ProjectsHomeComponent from "@/components/projects/home";
 
 const font = Amaranth({
   subsets: ["latin"],
   weight: '400',
 })
 
-export default function Resume() {
+export default function ProjectsPage(props) {
   
+  // console.info("Props: ", props);
 	return (
 		<main className={font.className}>
       <head>
-        <title>Resume | Maheshwar Arulraj</title>
+        <title>Projects | Maheshwar Arulraj</title>
       </head>
       <Header/>
-      <ResumeComponent />
+      <ProjectsHomeComponent />
       <Footer/>
     </main>
   )

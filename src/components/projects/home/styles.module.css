@@ -1,0 +1,58 @@
+.project_cards {
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  background-size: cover;
+}
+
+.project_card_title {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 28px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project_description {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  width: 0;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  transition: 0.5 ease;
+}
+
+.project_cards:hover .project_description {
+  width: 300px !important;
+  display: flex !important;
+  /* animation: openDescription 2s 2; */
+}
+
+@keyframes openDescription {
+  from { width: 100px;  }
+  to { width: 300px; }
+}
+
+.project_collabb {
+  background-image: url("/portfolioassets/collabb/banner.png");
+}
+
+.project_maguire_whiskey {
+  background-image: url("/portfolioassets/maguire_whiskey/banner.png");
+}
+
+.project_crm {
+  background-image: url("/portfolioassets/vakilsearch/crm_banner.png");
+}
+
+.project_website {
+  background-image: url("/portfolioassets/vakilsearch/website_banner.png");
+}
