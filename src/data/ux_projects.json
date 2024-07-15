@@ -1,5 +1,15 @@
 [
   {
+    "id": "3",
+    "title": "Fresh Balma",
+    "description": "Fresh Balma is a company that makes and distributes Italian desserts. The company's main product is made with the world's top chefs and served in 5-star restaurants across the nation.",
+    "projectClass": "project_fresh_balma",
+    "additionalClassNames": "",
+    "viewTitle": true,
+    "additionalTitleClassNames": "",
+    "url": "/fresh-balma"
+  },
+  {
     "id": "2",
     "title": "Collabb",
     "description": "Collabb is a freelancing application that connects Clients who wishes to get a job/task done and Candidates who are suitable to work for the job/task. Essentially the Candidate can apply for all possible jobs and tasks that are suitable to their profile while the Client can assess the Candidate's profile and decide which Candidate is suitable to work on the respective task",
