@@ -41,7 +41,7 @@ export default function HeadSection() {
         </h1>
         <h2 className="w-9/12 text-center self-center | md:text-xl">
           {/* <label className="text-4xl | md:text-6xl">{"d"}</label> */}
-          {"Designing and developing web and mobile applications has always been something I loved to do. With a curious and a creative approach towards solving problems, I push myself to create applications that is feasible and easy to use for users."}
+          {"Designing and developing web and mobile applications has always been something I loved to do. With over 3 years of experience in developing applications along with my Masters in UX designing, I bring in a wide set of skills to the table, essentially bridging the understanding between development and designing."}
         </h2>
       </div>
       <div
