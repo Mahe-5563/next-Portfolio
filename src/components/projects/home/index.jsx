@@ -9,11 +9,11 @@ export default function ProjectsHomeComponent(props) {
 	return (
 		<div className="mx-10 mt-32">
       <div className="text-center | md:text-left md:flex md:justify-between">
-        <h1 className="text-6xl text-[#D2C228] mb-6 | md:mb-0">projects</h1>
+        <h1 className="text-6xl text-[#D2C228] mb-6 | md:mb-0">Projects</h1>
       </div>
       <div className="mt-16">
         <h3 className="text-3xl text-center | md:text-left md:text-4xl">
-          <label className="text-6xl">ui/ux</label> <label className="text-6xl">p</label>rojects
+          UI/UX Projects
           <div className="border-b border-[#D2C228] mt-4 w-28 ml-auto mr-auto | md:ml-3 md:mr-0"></div>
         </h3>
         <div className="mt-4">
@@ -45,7 +45,7 @@ export default function ProjectsHomeComponent(props) {
       </div>
       <div className="mt-16">
         <h3 className="text-3xl text-center | md:text-left md:text-4xl">
-          <label className="text-6xl">f</label>rontend <label className="text-6xl">p</label>rojects
+          Frontend Projects
           <div className="border-b border-[#D2C228] mt-4 w-28 ml-auto mr-auto | md:ml-3 md:mr-0"></div>
         </h3>
         <div className="mt-4">

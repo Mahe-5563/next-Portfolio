@@ -96,12 +96,12 @@
             "listContent": [
               {
                 "id": "tech_used_1",
-                "title": "Design -",
+                "title": "Design",
                 "content": "Figma, Adobe Illustrator, Adobe Photoshop"
               },
               {
                 "id": "tech_used_2",
-                "title": "Development -",
+                "title": "Development",
                 "content": "React Native, Redux, Node JS, Mongo DB"
               }
             ]
@@ -179,12 +179,7 @@
           {
             "id": "logo_1",
             "header": "Collabb",
-            "image": ""
-          },
-          {
-            "id": "logo_2",
-            "header": "Collabb",
-            "image": ""
+            "image": "/portfolioassets/collabb/logo_w.png"
           }
         ]
       },
@@ -194,18 +189,8 @@
         "items": [
           {
             "id": "fontface_1",
-            "header": "Bold - Lato",
-            "content": "lato url goes here..."
-          },
-          {
-            "id": "fontface_2",
-            "header": "Regular - Lato",
-            "content": "lato url goes here..."
-          },
-          {
-            "id": "fontface_3",
-            "header": "Lite - Lato",
-            "content": "lato url goes here..."
+            "header": "Lato",
+            "content": "lato"
           }
         ]
       },
@@ -216,25 +201,25 @@
           {
             "id": "initial_prototype_1",
             "header": "Initial User Flow",
-            "image": "",
+            "image": "/portfolioassets/collabb/initial_process_1.jpg",
             "content": "The application was begun with an intention to provide service of various categories (and not just freelancing services) to users and customers. Although the idea of the application did develop as days progressed, and the motivation was focused primarily towards online freelancing services, the structure of the application remained constant right from the initial user flow. "
           },
           {
             "id": "initial_prototype_2",
             "header": "Client Flow - Job Post (primary flow)",
-            "image": "",
+            "image": "/portfolioassets/collabb/initial_process_2.jpg",
             "content": "Of the two user types, the Client user creates the tasks and jobs for the Candidate to apply, get in touch and work on. As the primary feature of the Client flow, the Job Post creation process is elicited here. \n\n\n\nThe primary flow begins by selecting the category and the sub-category under which the Client wishes to create the job post. Upon the selection, the Client provides the necessary details for that task/job and everything that the Candidate has to know about such as the requirements, skills, budget, timeframe, etc. Once the Client submits the job post, he/she can view the job post they created in the dashboard."
           },
           {
             "id": "initial_prototype_3",
             "header": "Client Flow (Contd.)",
-            "image": "",
+            "image": "/portfolioassets/collabb/initial_process_3.jpg",
             "content": "The Client can track the applications of the Candidates in the dashboard. The Client can view the Candidate's profile, portfolio, etc. and make a decision on with whom they want to proceed.\n\n\n\nThe chat feature is also elicited that works common to both the user types. The inbox holds the message thread of each conversation. The user can view and send messages with attachments (optional) to the other user. The chat feature works only user type to user type, i.e. the Client can chat only with the Candidate and vice-versa."
           },
           {
             "id": "initial_prototype_1",
             "header": "Candidate Flow - Apply for Job (primary flow)",
-            "image": "",
+            "image": "/portfolioassets/collabb/initial_process_4.jpg",
             "content": "The primary flow of the Candidate user focuses on applying for a job that they find suits their requirements. Initially the Candidate creates their account selecting the category and sub-category of their expertise. Once the account is created, the Candidate can view the list of all the jobs that they can possibly apply for and select one among them and apply for it. Once the application is sent, the Candidate has to wait for the response from the Client. The Candidate can view the status of their application in their dashboard."
           }
         ]
@@ -246,43 +231,43 @@
           {
             "id": "client_flow_prototype_1",
             "header": "Home Page",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_1.jpg",
             "content": "The Client user can create job posts or search for Candidates through the home page. 'Similar to your searches' section provides the Client with Candidates that match or are close to what the Client has been looking for."
           },
           {
             "id": "client_flow_prototype_2",
             "header": "Post Job - Select Category and Sub category",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_2.jpg",
             "content": "Creating a job post is the primary flow of the application for the Client user type. The Client is prompted to select the appropriate category and sub-category of the job post that they wish to create."
           },
           {
             "id": "client_flow_prototype_3",
             "header": "Post Job - Job Description",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_3.jpg",
             "content": "Once the category and sub-category are selected, the Client is required to provide the necessary job description and budget range for the project/task."
           },
           {
             "id": "client_flow_prototype_4",
             "header": "Client - Dashboard",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_4.jpg",
             "content": "The dashboard of the Client user provides the user with three different states of their job status. The Active Jobs determine the jobs that has been created but the work hasn't been started on it yet. Ongoing Jobs determine that the Client has decided with the candidate and they are working on it. Completed jobs holds all the old jobs that the Client has completed."
           },
           {
             "id": "client_flow_prototype_5",
             "header": "Dashboard",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_5.jpg",
             "content": "Every job status has the list of all the jobs that the Client has created and if there are any applications, the status of it is visible as well."
           },
           {
             "id": "client_flow_prototype_6",
             "header": "Applicants",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_6.jpg",
             "content": "The list of all the applicants who have applied for this particular job post."
           },
           {
             "id": "client_flow_prototype_7",
             "header": "Candidate Profile",
-            "image": "",
+            "image": "/portfolioassets/collabb/client_flow_prototype_7.jpg",
             "content": "The Client can visit the Candidate's profile, go through it and decide which candidate they find suitable to work on the particular task. The Client gets in touch with the candidate and proceed with the work."
           }
         ]
@@ -294,25 +279,25 @@
           {
             "id": "candidate_flow_prototype_1",
             "header": "Candidate Home Page",
-            "image": "",
+            "image": "/portfolioassets/collabb/talent_flow_prototype_1.jpg",
             "content": "The Home page of the candidate displays the list of all the possible job posts that are available to the respective candidate based on the category that they work on."
           },
           {
             "id": "candidate_flow_prototype_2",
             "header": "Home page filter",
-            "image": "",
+            "image": "/portfolioassets/collabb/talent_flow_prototype_2.jpg",
             "content": "The Candidate can filter their feed as they wish and search for the suitable job posts."
           },
           {
             "id": "candidate_flow_prototype_3",
             "header": "Apply for Job",
-            "image": "",
+            "image": "/portfolioassets/collabb/talent_flow_prototype_3.jpg",
             "content": "On selecting a job post from the home page feed, the Candidate can view the job description and the budget range of the selected job before applying for it."
           },
           {
             "id": "candidate_flow_prototype_4",
             "header": "Profile page",
-            "image": "",
+            "image": "/portfolioassets/collabb/talent_flow_prototype_4.jpg",
             "content": "The Candidate can keep themselves up to date on the status of their job, edit their details, profile picture and portfolio images."
           }
         ]
@@ -323,8 +308,8 @@
     "id": "2",
     "url": "maguire-whiskey",
     "title": "Maguire Whiskey",
-    "description": "Maguire Whiskey is a superficial brand recently opened in Dublin, Ireland. Known for its modern distill and the symbol of freshness, Maguire Whiskey requires a website to promote its brand and offers. The app is designed for mobile and desktop web.",
-    "banner": "",
+    "description": "Maguire Whiskey is a superficial brand recently opened in Dublin, Ireland. Known for its modern distill and the symbol of freshness, Maguire Whiskey requires a website to promote its brand and offers. The app is designed for mobile and desktop web. The brand is the very first app designed completely from scratch for my Master's assignment.",
+    "banner": "/portfolioassets/maguire_whiskey/banner.png",
     "projectType": "ux",
     "applicationType": "web",
     "steps": [
@@ -335,7 +320,7 @@
           {
             "id": "logo_1",
             "header": "Maguire Whiskey",
-            "image": ""
+            "image": "/portfolioassets/maguire_whiskey/mw-logo.png"
           }
         ]
       },
@@ -390,19 +375,19 @@
           {
             "id": "initial_prototype_1",
             "header": "Mobile Screen - Home and Products page",
-            "image": "",
+            "image": "/portfolioassets/maguire_whiskey/initial-prototype-scr-mobile.jpg",
             "content": ""
           },
           {
             "id": "initial_prototype_2",
             "header": "Desktop Screen - Products page",
-            "image": "",
+            "image": "/portfolioassets/maguire_whiskey/initial-prototype-desk-product-scr.jpg",
             "content": ""
           },
           {
             "id": "initial_prototype_3",
             "header": "Desktop Screen - Home page",
-            "image": "",
+            "image": "/portfolioassets/maguire_whiskey/initial-prototype-desk-home.jpg",
             "content": ""
           }
         ]
@@ -414,29 +399,29 @@
           {
             "id": "final_prototype_1",
             "header": "Products",
-            "image": "",
-            "image2": "",
+            "image": "/portfolioassets/maguire_whiskey/final-proto-product-screen-1.png",
+            "image2": "/portfolioassets/maguire_whiskey/final-proto-product-screen-2.png",
             "content": "In the products page, the list of all the drinks distilled and available at Maguire Whiskey are displayed. Each of the products has the description, the ingredients used in it and where it is available. The user can add the item to the cart and proceed to payment."
           },
           {
             "id": "final_prototype_2",
             "header": "Home Screen",
-            "image": "",
-            "image2": "",
+            "image": "/portfolioassets/maguire_whiskey/final-proto-home-screen-1.png",
+            "image2": "/portfolioassets/maguire_whiskey/final-proto-home-screen-2.png",
             "content": "The Home screen holds the top selling whiskeys and cocktails, promotions and customer reviews."
           },
           {
             "id": "final_prototype_3",
             "header": "Checkout page",
-            "image": "",
-            "image2": "",
+            "image": "/portfolioassets/maguire_whiskey/final-proto-cart-page-1.png",
+            "image2": "/portfolioassets/maguire_whiskey/final-proto-cart-page-2.png",
             "content": "The checkout page of the web app displays all the items that had been dropped in the cart (barrel), the total of all the items and the quantity of purchase."
           },
           {
             "id": "final_prototype_4",
             "header": "About",
-            "image": "",
-            "image2": "",
+            "image": "/portfolioassets/maguire_whiskey/final-proto-origins-page-1.png",
+            "image2": "/portfolioassets/maguire_whiskey/final-proto-origins-page-2.png",
             "content": "The About page displays the story of Maguire Whiskey."
           }
         ]
@@ -448,7 +433,7 @@
     "url": "vakilsearch-website",
     "title": "Vakilsearch Website",
     "description": "The CRM (Customer Relationship Model) portal was the first project I had worked on as a web dev professional, included into the project as an intern and completed the internship with wide knowledge and experience building multiple components and elements. The CRM was developed as a single-page application.\n\n\n\n<b>Disclaimer:</b> For safety and privacy purposes, the images provided in the portfolio are taken from the testing server rather than the production and is limited to few features.",
-    "banner": "",
+    "banner": "/portfolioassets/vakilsearch/website_banner.png",
     "projectType": "web",
     "applicationType": "web",
     "steps": [
@@ -458,21 +443,21 @@
         "items": [
           {
             "id": "prototype_web_1",
-            "header": "Primary Page",
-            "content": "Once the Business team executive or the Operations team executive logs into the application, the user lands on the CRM portal with the list of tickets on the left side and the details related to the ticket on the center and right side of the portal. The CRM project was a revamp from the previous model that had direct interaction with every requirement the teams needed. Combining all the features into a single page helped the executives to traverse through the respective sections of the page. The single page CRM proved to be helpful for the executives such as clearing the customer's problems, queries, handling leads and even contacting the customer for follow-ups. Over the 3 years of my time at Vakilsearch, multiple experiments and components were developed of which some proved to be of use to the executives while some of them didn't.",
-            "image": ""
+            "header": "Service Pages (landing page)",
+            "content": "Service pages were the important landing pages for the company. It's through the service pages over which the customers create leads that the Business and Operations executives receive and get in touch with. A/B Experiments are performed on some of the high priority service pages to understand the lead conversions and the payment conversions. The A/B Experiments revolved around the landing page banners and with the features provided with that particular service. These A/B experiments determined how many users actually interacted with the features and the landing page banner. The above image is related to Private Limited Company Registration service. High priority service pages had chat bots as well that the customer can interact to create leads. Although for the payment, the agent contacts the customer to get the payment by providing a payment link.",
+            "image": "/portfolioassets/vakilsearch/prototype-web-landing.png"
           },
           {
             "id": "prototype_web_2",
-            "header": "Customer Details card",
-            "content": "The Customer Details section holds all the necessary elements related to the customer and the agent/executive related to that customer. The executives also had the feature to perform regular call, SIP call and contact the customer through WhatsApp. Providing the executives with multiple options helped them keep tabs on the status of the ticket and the customer.",
-            "image": ""
+            "header": "Trademark Search Page",
+            "content": "Trademark search was an individual revamp project that I worked on a Full-Stack level. The frontend for TM search page was built roughly around in 2 weeks time and the backend APIs were completed and deployed in approximately 20 days. The integration and testing for the revamp webpage was done in less than a week's time. The purpose of the TM search page is to display the list of all available companies that have a trademark applied to their names and products such that a new proprietor doesn't attempt to trademark an existing name.",
+            "image": "/portfolioassets/vakilsearch/prototype-web-tms.png"
           },
           {
             "id": "prototype_web_3",
-            "header": "Email and Inbox",
-            "content": "The e-mail feature of the application is the primary one as all the official communication the executives have with the customers goes through e-mails. The e-mail feature has options that makes a part of the executive's life easier such as templates or canned responses, the type of e-mail, formatting and even the signature for the sender is figured out. ",
-            "image": ""
+            "header": "Seamless Payment Page",
+            "content": "The in-house payment page was the first major project on the website that I worked on. We were 2 developers, one frontend and one backend developer, with me working on the frontend. The in-house payment page was developed and tested over a period of 5 months before it was finally released to the production site. A/B testing was performed on the payment page as well. Two different payment pages were designed and developed to perform the experiment to determine which interface and experience had the highest payment conversions.",
+            "image": "/portfolioassets/vakilsearch/prototype-web-payment.png"
           }
         ]
       }
@@ -483,7 +468,7 @@
     "url": "vakilsearch-crm",
     "title": "Vakilsearch CRM",
     "description": "The transition from being an intern to a full-time employee came with its benefits. One of them was developing and managing various components, pages and the SEOs of the website. Multiple experiments and offer pages were developed and run by the clients and customers to collect their impressions on the feature. The impressions were passed through APIs with various factors and tracked through Power BI.\n\n\n\n<b>Disclaimer:</b> For safety and privacy purposes, the images provided in the portfolio are taken from the testing server rather than the production and is restricted to few features.",
-    "banner": "",
+    "banner": "/portfolioassets/vakilsearch/crm_banner.png",
     "projectType": "web",
     "applicationType": "web",
     "steps": [
@@ -493,21 +478,21 @@
         "items": [
           {
             "id": "prototype_web_1",
-            "header": "Service Pages (landing page)",
-            "content": "Service pages were the important landing pages for the company. It's through the service pages over which the customers create leads that the Business and Operations executives receive and get in touch with. A/B Experiments are performed on some of the high priority service pages to understand the lead conversions and the payment conversions. The A/B Experiments revolved around the landing page banners and with the features provided with that particular service. These A/B experiments determined how many users actually interacted with the features and the landing page banner. The above image is related to Private Limited Company Registration service. High priority service pages had chat bots as well that the customer can interact to create leads. Although for the payment, the agent contacts the customer to get the payment by providing a payment link.",
-            "image": ""
+            "header": "Primary Page",
+            "content": "Once the Business team executive or the Operations team executive logs into the application, the user lands on the CRM portal with the list of tickets on the left side and the details related to the ticket on the center and right side of the portal. The CRM project was a revamp from the previous model that had direct interaction with every requirement the teams needed. Combining all the features into a single page helped the executives to traverse through the respective sections of the page. The single page CRM proved to be helpful for the executives such as clearing the customer's problems, queries, handling leads and even contacting the customer for follow-ups. Over the 3 years of my time at Vakilsearch, multiple experiments and components were developed of which some proved to be of use to the executives while some of them didn't.",
+            "image": "/portfolioassets/vakilsearch/prototype-crm-primary-page.png"
           },
           {
             "id": "prototype_web_2",
-            "header": "Trademark Search Page",
-            "content": "Trademark search was an individual revamp project that I worked on a Full-Stack level. The frontend for TM search page was built roughly around in 2 weeks time and the backend APIs were completed and deployed in approximately 20 days. The integration and testing for the revamp webpage was done in less than a week's time. The purpose of the TM search page is to display the list of all available companies that have a trademark applied to their names and products such that a new proprietor doesn't attempt to trademark an existing name.",
-            "image": ""
+            "header": "Customer Details card",
+            "content": "The Customer Details section holds all the necessary elements related to the customer and the agent/executive related to that customer. The executives also had the feature to perform regular call, SIP call and contact the customer through WhatsApp. Providing the executives with multiple options helped them keep tabs on the status of the ticket and the customer.",
+            "image": "/portfolioassets/vakilsearch/prototype-crm-cust-details.png"
           },
           {
             "id": "prototype_web_3",
-            "header": "Seamless Payment Page",
-            "content": "The in-house payment page was the first major project on the website that I worked on. We were 2 developers, one frontend and one backend developer, with me working on the frontend. The in-house payment page was developed and tested over a period of 5 months before it was finally released to the production site. A/B testing was performed on the payment page as well. Two different payment pages were designed and developed to perform the experiment to determine which interface and experience had the highest payment conversions.",
-            "image": ""
+            "header": "Email and Inbox",
+            "content": "The e-mail feature of the application is the primary one as all the official communication the executives have with the customers goes through e-mails. The e-mail feature has options that makes a part of the executive's life easier such as templates or canned responses, the type of e-mail, formatting and even the signature for the sender is figured out. ",
+            "image": "/portfolioassets/vakilsearch/prototype-crm-email-inbox.png"
           }
         ]
       }
@@ -517,7 +502,7 @@
     "id": "5",
     "url": "fresh-balma",
     "title": "Fresh Balma",
-    "description": "Fresh Balma is a company that makes and distributes Italian desserts. The company's main product is made with the world's top chefs and served in 5-star restaurants across the nation.",
+    "description": "Fresh Balma is a fictional company that makes and distributes Italian desserts. The company's main product is made with the world's top chefs and served in 5-star restaurants across the nation.",
     "banner": "/portfolioassets/freshbalma/landing_banner.png",
     "projectType": "ux",
     "applicationType": "web",
@@ -544,7 +529,7 @@
               {
                 "id": 1,
                 "title": "#000F26",
-                "content": "#000F26"
+                "content": "000F26"
               }
             ]
           },
@@ -591,7 +576,7 @@
           {
             "id": "fontface_1",
             "header": "Cormorant",
-            "content": "Cormorant url goes here..."
+            "content": "cormorant"
           }
         ]
       },
@@ -603,31 +588,31 @@
             "id": "prototype_web_1",
             "header": "Landing",
             "content": "",
-            "image": ""
+            "image": "/portfolioassets/freshbalma/fresh_balm_1.png"
           },
           {
             "id": "prototype_web_2",
             "header": "Product",
             "content": "",
-            "image": ""
+            "image": "/portfolioassets/freshbalma/fresh_balm_3.png"
           },
           {
             "id": "prototype_web_3",
             "header": "Cart",
             "content": "",
-            "image": ""
+            "image": "/portfolioassets/freshbalma/fresh_balm_5.png"
           },
           {
             "id": "prototype_web_4",
             "header": "Our Team",
             "content": "",
-            "image": ""
+            "image": "/portfolioassets/freshbalma/fresh_balm_2.png"
           },
           {
             "id": "prototype_web_5",
             "header": "Contact Us",
             "content": "",
-            "image": ""
+            "image": "/portfolioassets/freshbalma/fresh_balm_4.png"
           }
         ],
         "additional_item": {

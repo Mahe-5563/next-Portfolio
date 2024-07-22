@@ -17,7 +17,7 @@ export default function Resume() {
       <head>
         <title>Resume | Maheshwar Arulraj</title>
       </head>
-      <Header/>
+      <Header page={"resume"} />
       <ResumeComponent />
       <Footer/>
     </main>

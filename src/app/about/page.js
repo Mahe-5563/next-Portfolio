@@ -17,7 +17,7 @@ export default function About() {
       <head>
         <title>About Me - Works by Mahe</title>
       </head>
-      <Header page="about"/>
+      <Header page={"about"}/>
       <AboutContent />
       <Footer/>
     </main>

@@ -22,18 +22,18 @@ export default function Custom404() {
         className="absolute top-[40%] bottom-[50%] text-center w-full px-4"
       >
         <h1 className="text-4xl mb-4">{"404 - you know what it means!!"} &#128542;</h1>
-        <div>{"oops! seems like the page you were looking for doesn't exist! "}</div>
+        <div>{"Oops! Seems like the page you were looking for doesn't exist! "}</div>
         <div>
-          you can either head{" "}
+          {"you can either head"}
           <Link 
-            className={`text-[${jsTWColors.secondaryColor}]`} 
+            className={`text-secondary`} 
             href={"#"} 
             onClick={() => { window.history.back(); }}
           >
-            back{" "}
+            back
           </Link> 
-          or go to the{" "}
-          <Link className="text-[${jsTWColors.secondaryColor}]" href={"/"}
+          {"or go to the"}
+          <Link className="text-secondary" href={"/"}
           >
             home page
           </Link>

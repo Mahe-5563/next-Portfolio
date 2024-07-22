@@ -18,7 +18,7 @@ export default function ProjectsPage(props) {
       <head>
         <title>Projects | Maheshwar Arulraj</title>
       </head>
-      <Header/>
+      <Header page={"projects"} />
       <ProjectsHomeComponent />
       <Footer/>
     </main>

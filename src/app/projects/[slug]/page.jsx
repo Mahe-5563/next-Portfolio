@@ -33,7 +33,7 @@ export default async function ProjectsURLPage({ params: { slug } }) {
           <head>
             <title>Projects</title>
           </head>
-          <Header/>
+          <Header page={"projects"}/>
           <ProjectDetailsPage {...pageDetails} />
           <Footer/>
         </>
