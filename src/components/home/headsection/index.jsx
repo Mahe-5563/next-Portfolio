@@ -9,7 +9,7 @@ export default function HeadSection() {
 
   return (
     <div className="mt-28">
-      <div className="mb-12 h-64 relative | md:flex md:justify-center md:mb-22 md:flex-row">
+      <div className="mb-12 h-64 relative | md:mb-7 md:flex md:justify-center md:mb-22 md:flex-row">
         <Image
           src={"/images/cartoon_dp.JPG"}
           alt="Profile Photo"
@@ -41,7 +41,7 @@ export default function HeadSection() {
         </h1>
         <h2 className="w-9/12 text-center self-center | md:text-xl">
           {/* <label className="text-4xl | md:text-6xl">{"d"}</label> */}
-          {"Designing and developing web and mobile applications has always been something I loved to do. With over 3 years of experience in developing applications along with my Masters in UX designing, I bring in a wide set of skills to the table, essentially bridging the understanding between development and designing."}
+          {"Designing and developing web and mobile applications has always been something I loved to do. With over 3 years in frontend development, and with my Masters in UX designing, I bring in a wide set of skills to the table, essentially bridging the understanding between design and development."}
         </h2>
       </div>
       <div
