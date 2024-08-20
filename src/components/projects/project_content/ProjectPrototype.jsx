@@ -29,7 +29,7 @@ export default function ProjectPrototype(props) {
         <div className="px-7 flex flex-col items-center">
           {items?.map((item, index) => {
             return (
-              <>
+              <section key={`prototype_item_${index}`}>
                 <h4 className="text-2xl">{item.header}</h4>
                 <div className="md:flex gap-4 mb-6 mt-2" key={item.id}>
                   <Image
@@ -49,7 +49,7 @@ export default function ProjectPrototype(props) {
                     className="cursor-pointer"
                   />
                 </div>
-              </>
+              </section>
             )
           })}
         </div>
@@ -57,7 +57,7 @@ export default function ProjectPrototype(props) {
         <div className="flex justify-center flex-wrap gap-4 px-7">
           {items?.map((item, index) => {
             return (
-              <div className="w-1/3" key={item.id}>
+              <section className="w-1/3" key={item.id}>
                 <Image
                   src={item.image}
                   alt={item.header}
@@ -66,7 +66,7 @@ export default function ProjectPrototype(props) {
                   onClick={() => {setModalState({...item, type})}}
                   className="cursor-pointer"
                 />
-              </div>
+              </section>
             )
           })}
         </div>}

@@ -10,7 +10,7 @@ export default function ProjectText(props) {
         {items.map((item, index) => {
           const titleNo = `${(index+1) > 0 && (index+1) < 10 ? "0" : ""}${index+1}`
           return (
-            <div 
+            <section 
               key={item.id}
               className="w-1/3 p-5"
             >
@@ -26,7 +26,7 @@ export default function ProjectText(props) {
                   ))}
                 </ul>
               }
-            </div>
+            </section>
           )
         })}
       </div>

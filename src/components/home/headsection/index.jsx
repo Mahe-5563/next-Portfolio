@@ -19,9 +19,9 @@ export default function HeadSection() {
         />
         <div className="flex place-content-center mt-7 | md:flex-col md:absolute md:right-3 md:top-5 md:bottom-0">
           {weburls.map((url) => (
-            <>
+            <section key={`weburl_${url.id}`}>
               {url.home &&
-                <a key={`weburl_${url.id}`} href={url.href} target="_blank">
+                <a href={url.href} target="_blank">
                   <Image
                     src={url.src}
                     alt={url.alt}
@@ -31,7 +31,7 @@ export default function HeadSection() {
                   />
                 </a>
               }
-            </>
+            </section>
           ))}
         </div>
       </div>

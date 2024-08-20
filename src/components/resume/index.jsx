@@ -162,7 +162,7 @@ export default function ResumeComponent() {
           <div className="border-b border-[#D2C228] mt-4 w-28 ml-auto mr-auto | md:ml-3 md:mr-0"></div>
         </h3>
         {workExp.map(exp => (
-          <div className="mt-9" key={`work_exp_${exp.id}`}>
+          <section className="mt-9" key={`work_exp_${exp.id}`}>
             <div className=" | md:flex md:justify-between">
               <div className="md:flex ">
                 <Image 
@@ -187,7 +187,7 @@ export default function ResumeComponent() {
             <div className="mt-3 mx-10">
               <p className="text-lg">{exp.description}</p>
             </div>
-          </div>
+          </section>
         ))}
       </div>
       <div className="mt-20">
@@ -197,7 +197,7 @@ export default function ResumeComponent() {
         </h3>
         <div className="mt-9">
           {education.map(edu => (
-            <div key={`edu_${edu.id}`} className="mt-8">
+            <section key={`edu_${edu.id}`} className="mt-8">
               <div className=" | md:flex md:justify-between">
                 <div className="md:flex">
                   <Image 
@@ -221,7 +221,7 @@ export default function ResumeComponent() {
               <div className="mt-3 mx-10">
                 <p className="text-lg">{edu.description}</p>
               </div>
-            </div>
+            </section>
           ))}
         </div>
       </div>

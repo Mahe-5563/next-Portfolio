@@ -18,9 +18,9 @@ export default function AboutContent() {
         <div>
           <h5 className="mb-2">social links</h5>
           {weburls.map((link) => (
-            <>
+            <section id={link.id} key={link.id}>
               {link.about && (
-                <Link id={link.id} key={link.id} href={link.href}>
+                <Link href={link.href}>
                   <FontAwesomeIcon
                     icon={link.icon}
                     fontSize={50}
@@ -29,7 +29,7 @@ export default function AboutContent() {
                   />
                 </Link>
               )}
-            </>
+            </section>
           ))}
         </div>
         <div className="mt-auto">

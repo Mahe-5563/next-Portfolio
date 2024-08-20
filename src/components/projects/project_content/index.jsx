@@ -28,9 +28,9 @@ export default function ProjectDetailsPage(props) {
       </div>
       {/* Steps and Sections */}
       <>
-        {steps?.map((step) => {
+        {steps?.map((step, index) => {
           return (
-            <>
+            <section key={`step_${index}`}>
               <h2 className="text-4xl mt-16 mb-6 text-center underline underline-offset-8">
                 {step.title}
               </h2>
@@ -43,7 +43,7 @@ export default function ProjectDetailsPage(props) {
                 || step.type == "prototype_mobile"
                 || step.type == "prototype_web"
                 || step.type == "prototype_web_mobile") && <ProjectPrototype {...step} />}
-            </>
+            </section>
           );
         })}
       </>
