@@ -1,5 +1,15 @@
 [
   {
+    "id": "3",
+    "title": "MyStartup AI",
+    "description": "MyStartup AI is an innovative platform designed to help entrepreneurs and startups navigate the complexities of launching and growing a business leveraging AI tools to provide advanced guidance required to kick start a company from scratch.",
+    "projectClass": "project_mystartup_ai",
+    "additionalClassNames": "",
+    "viewTitle": true,
+    "additionalTitleClassNames": "",
+    "url": "/mystartup-ai"
+  },
+  {
     "id": "2",
     "title": "Vakilsearch Website",
     "description": "Vakilsearch website included various service pages that the customers can work with to create leads. Customers can interact with the website to proceed with payment, view offers for the related services, chat bot, search pages, etc.",

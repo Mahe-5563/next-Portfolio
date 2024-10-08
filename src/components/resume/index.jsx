@@ -7,7 +7,15 @@ export default function ResumeComponent() {
 
   const workExp = [
     {
-      id: 1,
+      id: 3,
+      logo: "/images/mystartup_ai.svg",
+      position: "Frontend Developer",
+      organisation: "MyStartup AI",
+      duration: "Mar 2024 - Present",
+      description: "Became a co-founding member of a startup company with MyStartup AI and began developing website and dashboard app to gain experience on a foreign soil."
+    },
+    {
+      id: 2,
       logo: "/images/vakilsearch.png",
       position: "Software Engineer",
       organisation: "Vakilsearch Legal Solutions (Currently Zolvit)",
@@ -15,7 +23,7 @@ export default function ResumeComponent() {
       description: "Begun my career as a Frontend Developer and worked for nearly 3 years, at Vakilsearch Legal Solutions, Chennai - India, developing single-page applications and responsive and dynamic webpages using React.js, JavaScript, HTML/CSS, Redux and Next.js."
     },
     {
-      id: 2,
+      id: 1,
       logo: "/images/full_creative_logo.jpg",
       position: "Android Intern",
       organisation: "Full Creative Pvt. Ltd.",
@@ -37,7 +45,7 @@ export default function ResumeComponent() {
       id: 2,
       logo: "/images/eec.png",
       course: "B.E. in Computer Science & Engineering",
-      institution: "Easwari Engineering College (Anna University affiliated)",
+      institution: "Easwari Engineering College (Anna University)",
       duration: "Aug 2015 - Apr 2019",
       description: "The bachelor's course focused on intricate components of computer hardware and software such as Computer Architecture, Database Management, Grid System Architecture, Cloud Infrastructure, Web Applications and Networking."
     }

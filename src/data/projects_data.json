@@ -623,5 +623,64 @@
         }
       }
     ]
+  },
+  {
+    "id": "6",
+    "url": "mystartup-ai",
+    "title": "MyStartup AI",
+    "description": "MyStartup AI is a startup company based out of Dublin, Ireland that I am currently working in. The company is the first that I have been involved with outside India and my first experience in a Foreign country. MyStartup AI is an innovative platform designed to help entrepreneurs and startups navigate the complexities of launching and growing a business leveraging AI tools to provide advanced guidance required to kick start a company from scratch.",
+    "banner": "/portfolioassets/mystartup_ai/banner.png",
+    "projectType": "web",
+    "applicationType": "web",
+    "weblink": [
+      {
+        "type": "link",
+        "value": "Website",
+        "link": "https://mystartup.ai"
+      },
+      {
+        "type": "link",
+        "value": "Dashboard",
+        "link": "https://mystartup-dashboard.vercel.app/home"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Dashboard screens developed",
+        "type": "prototype_web",
+        "items": [
+          {
+            "id": "prototype_web_1",
+            "header": "Dashboard Home",
+            "content": "The home page of the dashboard allows the company users to traverse through the app to various sections of the page to perform tasks and get their work done. The home page lets the users access all the features of the app only when the user creates a profile and ",
+            "image": "/portfolioassets/mystartup_ai/dashboard_home.png"
+          },
+          {
+            "id": "prototype_web_2",
+            "header": "Plans",
+            "content": "Various Plans over Marketing, Business and Legal sections allow users to fetch any documents that are required to kickstart their organisation.",
+            "image": "/portfolioassets/mystartup_ai/business_items.png"
+          },
+          {
+            "id": "prototype_web_3",
+            "header": "Generated Plans",
+            "content": "The plans for each of the sections are AI generated, which means the user gets the best of the data, to provide for their organisation. The users can regenrate the plans if they find any not upto their expectations and store the plan that they are satisfied with.",
+            "image": "/portfolioassets/mystartup_ai/generated_page.png"
+          },
+          {
+            "id": "prototype_web_4",
+            "header": "Profile",
+            "content": "The profile is one of the major players of the dashboard app. The profile page manages all the basic details of the organisation.",
+            "image": "/portfolioassets/mystartup_ai/profile.png"
+          },
+          {
+            "id": "prototype_web_5",
+            "header": "Investors",
+            "content": "The users can view all the possible investors to whom they can approach for funding their startup company.",
+            "image": "/portfolioassets/mystartup_ai/investors_list.png"
+          }
+        ]
+      }
+    ]
   }
 ]

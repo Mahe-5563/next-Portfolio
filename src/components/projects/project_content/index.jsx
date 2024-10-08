@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 import ProjectCard from "./ProjectCard";
 import ProjectText from "./ProjectText";
 import ProjectPalette from "./ProjectPalette";
@@ -8,15 +10,29 @@ import ProjectFontface from "./ProjectFontface";
 import ProjectPrototype from "./ProjectPrototype";
 
 export default function ProjectDetailsPage(props) {
-  const { title, description, banner, steps } = props;
-  // console.info("Props: ", props);
+  const { title, description, banner, steps, weblink } = props;
 
   return (
     <div className="mx-10 mt-32">
       <div className="">
-        <h1 className="text-4xl mb-3 text-[#D2C228] | md:text-6xl md:mb-5">
-          {title}
-        </h1>
+        <section className="mb-3 | md:mb-5">
+          <h1 className="text-4xl text-[#D2C228] | md:text-6xl">
+            {title}
+          </h1>
+          {weblink && 
+            <div className="flex gap-3 mt-4">
+              {weblink.map((link, index) => 
+                <Link 
+                  key={`web_link_${index}`} 
+                  href={link.link}
+                  className="underline underline-offset-8"
+                >
+                  {link.value}
+                </Link>
+              )}
+            </div>
+          }
+        </section>
         <p className="text-md mb-3 | md:text-xl md:mb-5">{description}</p>
         <Image
           className="mx-auto rounded-md"
